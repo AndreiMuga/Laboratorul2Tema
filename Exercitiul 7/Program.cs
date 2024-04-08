@@ -12,3 +12,5 @@ string aDouaVarianta = "The "+"use"+" of quotations causes difficulties.";
 Console.WriteLine(primaVarianta);
 Console.WriteLine(aDouaVarianta);//fara dublu ghilimele peste tot
 Console.WriteLine("The \"use\" of quotations causes difficulties.");
+string aTreiaVarianta = @"The ""use"" of quotations causes difficulties.";
+Console.WriteLine(aTreiaVarianta);
